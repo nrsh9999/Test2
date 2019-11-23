@@ -21,16 +21,28 @@
 # Registers:
 
 # File marks:
-'0  2  0  ~/naresh1/file3.txt
-'1  1  13  ~/naresh1/file1.txt
+'0  1  13  ~/naresh1/file4.txt
+'1  2  0  ~/naresh1/file3.txt
+'2  1  13  ~/naresh1/file1.txt
 
 # Jumplist (newest first):
+-'  1  13  ~/naresh1/file4.txt
+-'  2  0  ~/naresh1/file3.txt
+-'  1  0  ~/naresh1/file3.txt
+-'  1  13  ~/naresh1/file1.txt
+-'  1  13  ~/naresh1/file1.txt
 -'  2  0  ~/naresh1/file3.txt
 -'  1  0  ~/naresh1/file3.txt
 -'  1  13  ~/naresh1/file1.txt
 -'  1  13  ~/naresh1/file1.txt
 
 # History of marks within files (newest to oldest):
+
+> ~/naresh1/file4.txt
+	"	1	13
+	^	1	14
+	.	1	13
+	+	1	13
 
 > ~/naresh1/file3.txt
 	"	2	0
