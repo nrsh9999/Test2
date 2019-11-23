@@ -1,0 +1,15 @@
+[0;1;32m●[0m jenkins.service - LSB: Start Jenkins at boot time
+   Loaded: loaded (/etc/init.d/jenkins; bad; vendor preset: enabled)
+   Active: [0;1;32mactive (exited)[0m since Thu 2019-11-21 17:59:25 UTC; 10min ago
+     Docs: man:systemd-sysv-generator(8)
+
+Nov 21 17:59:24 devops-naresh jenkins[18917]: Correct java version found
+Nov 21 17:59:24 devops-naresh jenkins[18917]:  * Starting Jenkins Automation Server jenkins
+Nov 21 17:59:24 devops-naresh su[18963]: Successful su for jenkins by root
+Nov 21 17:59:24 devops-naresh su[18963]: + ??? root:jenkins
+Nov 21 17:59:24 devops-naresh su[18963]: [0;1;31mpam_env(su:session): non-alphanumeric key 'source/etc/environment' in /etc/environment', ignoring[0m
+Nov 21 17:59:24 devops-naresh su[18963]: [0;1;31mpam_env(su:session): non-alphanumeric key 'echo $JAVA_HOME' in /etc/environment', ignoring[0m
+Nov 21 17:59:24 devops-naresh su[18963]: pam_unix(su:session): session opened for user jenkins by (uid=0)
+Nov 21 17:59:25 devops-naresh jenkins[18917]:    ...done.
+Nov 21 17:59:25 devops-naresh systemd[1]: Started LSB: Start Jenkins at boot time.
+Nov 21 18:09:34 devops-naresh systemd[1]: Started LSB: Start Jenkins at boot time.
